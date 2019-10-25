@@ -44,7 +44,7 @@ function initElements() {
   // Initialize data
   addPointElement("Zarahemla", TYPE_CITY, vec2(400, 400));
   addPointElement("Nephi", TYPE_CITY, vec2(400, 200));
-  addPointElement("Melek", TYPE_CITY, vec2(280, 450));
+  addPointElement("Melek", TYPE_CITY, vec2(280, 430));
   addPointElement("Ammonihah", TYPE_CITY, vec2(300, 600));
 
   // addPolygonElement("Land of Zarahemla", LAND,
