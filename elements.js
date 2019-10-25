@@ -70,7 +70,8 @@ function initElements() {
   //                   [ vec2(-2, -2), vec2(2, -2),
   //                     vec2(2, -.2), vec2(-2, -.2) ]);
 
-  addConstraint("Zarahemla", "Nephi", new DirConstraint(NORTH));
+  // addConstraint("Zarahemla", "Nephi", new DirConstraint(NORTH));
+  addConstraint("Nephi", "Zarahemla", new DirConstraint(SOUTH));
   addConstraint("Ammonihah", "Melek", new DirConstraint(NORTH));
   addConstraint("Ammonihah", "Zarahemla", new DirConstraint(NORTH));
 
